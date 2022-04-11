@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny's gif library</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary">Dannys Gif Library</h1>
+        <div class="search-gif">
+            <h2 class="text-primary my-3">Search</h2>
+            <label class="h6">Search for your favourite gifs:</label><br>
+            <div class="col-md-3 list-inline-item">
+                <input type="search" id="inputted-search" class="form-control">
+            </div>
+            <button class="btn btn-outline-primary" type="button" id="searchbtn">Search</button>
+            <div class="img-div" id="searched-img">
+               
+            </div>
+        </div>
+
+        <div class="trending-gif">
+            <h2 class="text-primary my-3">Trending</h2>
+            <p class="h6">This are the hottest trending gifs</p>
+            <div class="img-div row" id="trending-img" style="height: auto;">
+            </div>
+        </div>
+
+        <div class="random-gif">
+            <h2 class="text-primary my-3">Random</h2>
+            <p class="h6">select the rating and Click on the randomize button to select a random gif</p>
+            <p class="h7">Ratings:</p>
+            <div class="col-md-3">
+                <select name="rating" class="form-control" id="rating">
+                    <option value="g">g</option>
+                    <option value="pg">pg</option>
+                    <option value="pg-13">pg-13</option>
+                    <option value="r">r</option>
+                </select>
+                 <button class="btn-block btn-primary mt-2 btn" id="random-btn">Randomize</button>
+            </div>
+           
+            <div class="img-div mb-3" id="random-img">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
