@@ -12,7 +12,8 @@ module.exports = {
   },
   devtool: 'eval-source-map',  
   devServer: {                 
-    static: './dist'      
+    static: './dist',
+    port:3000      
   },
   plugins: [
     new Dotenv(),
